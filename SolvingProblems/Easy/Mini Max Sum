@@ -1,9 +1,9 @@
 public static void miniMaxSum(List<int> arr)
     {
-        int min = arr.Min();
-        int max = arr.Max();
-        int minResult = 0;
-        int maxResult = 0;
+        long min = arr.Min();
+        long max = arr.Max();
+        long minResult = 0;
+        long maxResult = 0;
         
         foreach(int i in arr){
             minResult +=i;
