@@ -1,0 +1,14 @@
+public static void plusMinus(List<int> arr)
+    {
+        double a=0, b=0, c=0;
+            foreach (int i in arr)
+            {
+                if (i > 0) a++;
+                if (i < 0) b++;
+                if (i == 0) c++;
+            }
+            Console.WriteLine(string.Format("{0:0.000000}", a / arr.Count));
+            Console.WriteLine(string.Format("{0:0.000000}", b / arr.Count));
+            Console.WriteLine(string.Format("{0:0.000000}", c / arr.Count));
+         
+    }
