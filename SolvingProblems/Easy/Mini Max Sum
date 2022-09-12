@@ -1,0 +1,13 @@
+public static void miniMaxSum(List<int> arr)
+    {
+        int min = arr.Min();
+        int max = arr.Max();
+        int minResult = 0;
+        int maxResult = 0;
+        
+        foreach(int i in arr){
+            minResult +=i;
+            maxResult +=i;
+        }
+        Console.WriteLine((maxResult-max) + " " + (minResult-min));
+    }
