@@ -1,0 +1,9 @@
+public static int birthdayCakeCandles(List<int> candles)
+    {
+        long max = candles.Max();
+        int a = 0;
+        foreach(long i in candles){
+            if(i == max) a++;
+        }
+        return a;
+    }
