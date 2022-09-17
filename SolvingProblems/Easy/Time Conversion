@@ -1,0 +1,5 @@
+public static string timeConversion(string s)
+    {
+        var result = DateTime.Parse(s);
+        return result.ToString("HH:mm:ss");
+    }
